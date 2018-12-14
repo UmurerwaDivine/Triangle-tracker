@@ -4,7 +4,8 @@
 img{
     width:350px;
     height: 250px;
+    float: right;
 }
-h1{
+h3{
     text-align: center;
 }
