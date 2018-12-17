@@ -16,3 +16,7 @@ and chrome to see some result```
 ### license and copyright
 
 MIT copyright 2018
+
+### link to live site on GitHub Pages
+
+```https://github.com/UmurerwaDivine/Triangle-tracker```
