@@ -6,18 +6,25 @@ This is a project which will help us to track different triangle .
 
 ### project setup instructions
 
-```We used visual studio code to write some codes and styling it
-and chrome to see some result```
+```
+We used visual studio code to write some codes and styling it
+and chrome to see some result.
 
 ### Author
 
-```Umurerwa Divine```
+```
+Umurerwa Divine
+
 
 ### contact information
 
+```
 E-mail:divinekagame@gmail.com
 
-### BDD
+
+### BDD (behaviour driven development)
+
+```
 ----------------------------------------------------------------------------------------------
 |       __behaviour__                                 |      __input__       |  __output__   |
 |-----------------------------------------------------|:--------------------:|--------------:|
@@ -27,6 +34,7 @@ E-mail:divinekagame@gmail.com
 |-----------------------------------------------------|----------------------|---------------|
 |when i put 3 different number it will say "scalene"  |       2, 3, 5        |  scalene      |
 ----------------------------------------------------------------------------------------------
+
 
 ### license and copyright
 
