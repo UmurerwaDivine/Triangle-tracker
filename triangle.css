@@ -1,11 +1,15 @@
 .triangle{
-   background-color: gray;
+   background-image:url("image/pexels-photo-616650.jpeg");
 }
 img{
-    width:350px;
-    height: 250px;
-    float: right;
+    width:380px;
+    height: 340px;
+    
 }
 h3{
     text-align: center;
+}
+button{
+    color: darkcyan;
+    font-size: 16px;
 }

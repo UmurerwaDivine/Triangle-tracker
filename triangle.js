@@ -10,10 +10,10 @@ function myTriangle(){
        alert("This triangle is Equilateral");
    }
    else if(sideOne===sideTwo || sideOne===sideThree || sideTwo===sideThree ){
-       alert("This triangle is isoscele");
+       alert("This triangle is Isoscele");
    }
    else if(sideOne+sideTwo>sideThree || sideOne+sideThree>sideTwo || sideTwo+sideThree>sideOne){
-       alert("This triangle is Iscalene")
+       alert("This triangle is scalene")
    }
    else{
        ("this not a triangle");
