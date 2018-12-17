@@ -12,3 +12,7 @@ and chrome to see some result```
 ### Author
 
 ```Umurerwa Divine```
+
+### license and copyright
+
+MIT copyright 2018
