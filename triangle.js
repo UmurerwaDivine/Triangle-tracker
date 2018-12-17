@@ -12,12 +12,15 @@ function myTriangle(){
    else if(sideOne===sideTwo || sideOne===sideThree || sideTwo===sideThree ){
        alert("This triangle is Isoscele");
    }
-   else if(sideOne+sideTwo>sideThree || sideOne+sideThree>sideTwo || sideTwo+sideThree>sideOne){
+   else if((sideOne+sideTwo>sideThree) && (sideOne+sideThree>sideTwo) && (sideTwo+sideThree>sideOne)){
        alert("This triangle is scalene")
    }
-   else if(sideOne+sideTwo<=sideThree || sideOne+sideThree<=sideTwo || sideTwo+sideThree<=sideOne){
+   else /*if(sideOne+sideTwo<=sideThree || sideOne+sideThree<=sideTwo || sideTwo+sideThree<=sideOne)*/{
     ("this not a triangle"); 
 }
   
+}
+function myReset() {
+    document.getElementById("myForm").reset();
 }
 

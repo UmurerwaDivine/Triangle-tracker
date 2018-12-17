@@ -1,29 +1,43 @@
-<!doctype <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Triangle Tracker</title>
+
     <link rel="icon" type="image/ico" href="image/down.png"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="triangle.css" />
-    <script src="triangle.js"></script>
-</head>
-<body>
-    <div class="triangle">
-    <h3>TRIANGLE TRACKER</h3>
-    <img src="image/slide_1.jpg">
-    <p>fill this three label below to track your triangle </p>
-    
-   First side:<br>
-   <input type="number" id="nber"><br>
-  Second side:<br>
-   <input type="number" id="nber1"><br>
-   Third side:<br>
-   <input type="number" id="nber2"><br><br>
 
-    <button onclick="myTriangle()">submit</button>
-    <button type="reset" value="Reset">Reset</button>
-</div>
-</body>
+    <script src="triangle.js"></script>
+    
+  </head>
+  <body>
+    <div class="triangle">
+
+       <h3>TRIANGLE TRACKER</h3>
+
+       <img src="image/slide_1.jpg">
+
+       <p>fill this three label below to track your triangle </p>
+
+       <form id="myForm">
+
+          First side:<br>
+          <input type="number" id="nber"><br>
+          Second side:<br>
+          <input type="number" id="nber1"><br>
+          Third side:<br>
+          <input type="number" id="nber2"><br><br>
+
+          <button onclick="myTriangle()">submit</button>
+
+          <button onclick="myReset()">Reset</button>
+
+       </form>
+
+    </div>
+ </body>
 </html>
