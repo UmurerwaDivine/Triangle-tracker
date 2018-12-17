@@ -15,8 +15,9 @@ function myTriangle(){
    else if(sideOne+sideTwo>sideThree || sideOne+sideThree>sideTwo || sideTwo+sideThree>sideOne){
        alert("This triangle is scalene")
    }
-   else{
-       ("this not a triangle");
-   }
+   else if(sideOne+sideTwo<=sideThree || sideOne+sideThree<=sideTwo || sideTwo+sideThree<=sideOne){
+    ("this not a triangle"); 
+}
+  
 }
 
