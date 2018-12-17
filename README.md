@@ -13,6 +13,11 @@ and chrome to see some result```
 
 ```Umurerwa Divine```
 
+### contact information
+
+E-mail:divinekagame@gmail.com
+
+
 ### license and copyright
 
 MIT copyright 2018
